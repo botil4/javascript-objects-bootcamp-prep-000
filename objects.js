@@ -8,7 +8,7 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 
 var playlist = {Chris: 'Broken Halos'}
 
-function updatePlaylist(playlist, artist, title) {
-  playlist.artist = title
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist.artistName = songTitle
   return playlist
 }
