@@ -10,4 +10,5 @@ var playlist = {Chris: 'Broken Halos'}
 
 function updatePlaylist(playlist, artist, title) {
   playlist.artist = title
+  return playlist
 }
