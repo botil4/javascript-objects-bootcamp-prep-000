@@ -9,6 +9,6 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 var playlist = {Chris: 'Broken Halos'}
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist.artistName = songTitle
+  playlist[artistName] = songTitle
   return playlist
 }
